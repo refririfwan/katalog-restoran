@@ -1,10 +1,11 @@
 {
   "name": "katalog-restoran",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Submission: Katalog Restoran + PWA",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-dev": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
