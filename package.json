@@ -1,0 +1,22 @@
+{
+  "name": "katalog-restoran",
+  "version": "0.0.1",
+  "description": "Submission: Katalog Restoran + PWA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/refririfwan/katalog-restoran.git"
+  },
+  "keywords": [
+    "PWA"
+  ],
+  "author": "@refririfwan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/refririfwan/katalog-restoran/issues"
+  },
+  "homepage": "https://github.com/refririfwan/katalog-restoran#readme"
+}
