@@ -1,3 +1,5 @@
+import RestaurantDBSource from '../../data/restaurantdb-source';
+
 const Restaurants = {
   async render() {
     return `
@@ -6,7 +8,9 @@ const Restaurants = {
   },
 
   async afterRender() {
-    // Fungsi ini akan dipanggil setelah render()
+    const restaurants = await RestaurantDBSource.listRestaurants();
+    // eslint-disable-next-line no-console
+    console.log(restaurants);
   },
 };
 

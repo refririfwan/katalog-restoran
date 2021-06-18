@@ -1,3 +1,6 @@
+import UrlParser from '../../routes/url-parser';
+import RestaurantDBSource from '../../data/restaurantdb-source';
+
 const Detail = {
   async render() {
     return `
@@ -6,7 +9,10 @@ const Detail = {
   },
 
   async afterRender() {
-    // Fungsi ini akan dipanggil setelah render()
+    const url = UrlParser.parseActiveUrlWithoutCombiner();
+    const restaurant = await RestaurantDBSource.detailRestaurant(url.id);
+    // eslint-disable-next-line no-console
+    console.log(restaurant);
   },
 };
 
