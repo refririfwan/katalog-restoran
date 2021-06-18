@@ -1,6 +1,6 @@
 {
   "name": "katalog-restoran",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Submission: Katalog Restoran + PWA",
   "main": "index.js",
   "scripts": {
