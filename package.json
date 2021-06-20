@@ -1,6 +1,6 @@
 {
   "name": "katalog-restoran",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Submission: Katalog Restoran + PWA",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,8 @@
     "webpack-merge": "^5.0.9"
   },
   "dependencies": {
-    "regenerator-runtime": "^0.13.5"
+    "regenerator-runtime": "^0.13.5",
+    "serviceworker-webpack-plugin": "^1.0.1"
   },
   "bugs": {
     "url": "https://github.com/refririfwan/katalog-restoran/issues"
