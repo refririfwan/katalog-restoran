@@ -22,7 +22,7 @@ const createRestaurantItemTemplate = (restaurant) => `
         <img class="restaurant-item__header__poster" alt="${restaurant.name}"
         src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}">
         <div class="restaurant-item__header__rating">
-            <p>⭐️<span class="restaurant-item__header__rating__score">${restaurant.rating}</span></p>
+            <p>⭐️<span class="restaurant-item__header__rating__score">${restaurant.rating} | ${restaurant.city}</span></p>
         </div>
     </div>
     <div class="restaurant-item__content">

@@ -104,6 +104,21 @@ body {
   width: 100%;
 }
 
+/* 
+  Hero
+*/
+
+/* Jumbotron */
+.hero {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  background-position: center;
+  background-color: transparent;
+}
+
+
 /*
   Main Content
 */
