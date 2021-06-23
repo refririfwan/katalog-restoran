@@ -64,7 +64,7 @@ body {
   background-color: transparent;
   border: none;
   font-size: 18px;
-  padding: 8px;
+  padding: 12px;
   cursor: pointer;
 }
 
@@ -99,7 +99,7 @@ body {
   display: inline-block;
   text-decoration: none;
   color: black;
-  padding: 8px;
+  padding: 10px;
   margin-bottom: 5px;
   width: 100%;
 }
@@ -171,7 +171,7 @@ main {
 
 .restaurant-item .restaurant-item__header .restaurant-item__header__rating {
   position: absolute;
-  padding: 8px;
+  padding: 10px;
   bottom: 20px;
   left: 0;
   display: inline-block;
@@ -194,6 +194,7 @@ main {
 .restaurant-item .restaurant-item__content h3 a {
   color: #db0000;
   text-decoration: none;
+  padding: 10px;
 }
 
 .restaurant-item .restaurant-item__content p {
