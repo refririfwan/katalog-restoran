@@ -118,6 +118,23 @@ body {
   background-color: transparent;
 }
 
+.hero__inner {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.hero__title {
+  color: red;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.hero__tagline {
+  color: red;
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 400;
+}
 
 /*
   Main Content
