@@ -63,8 +63,8 @@ body {
 .app-bar .app-bar__menu button {
   background-color: transparent;
   border: none;
-  font-size: 18px;
-  padding: 12px;
+  font-size: 28px;
+  padding: 14px;
   cursor: pointer;
 }
 
@@ -282,4 +282,5 @@ footer p {
 footer p a {
   color: #db0000;
   text-decoration: none;
+  padding: 12px;
 }
