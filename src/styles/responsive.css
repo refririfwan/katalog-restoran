@@ -4,6 +4,12 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .hero {
+    background-image: url('/images/hero-image-large.jpg');
+  }
+}
+
 @media screen and (min-width: 650px) {
   .app-bar {
     grid-template-columns: 1fr auto;
